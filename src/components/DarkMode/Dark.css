@@ -1,0 +1,12 @@
+
+.scheme_btn img {
+    max-width: 30px;
+    max-height: 30px;
+    mix-blend-mode: multiply;
+    transition: 1s ease-in-out;
+    background-color: transparent;
+}
+.dark .scheme_btn img{
+    transform: rotateY(180deg);
+    mix-blend-mode: lighten;
+}

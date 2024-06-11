@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--blue);
+  text-decoration: none;
+}
+:root {
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --main-black: #171717;
+  --main-red: #E53462;
+  --main-grey: #EDEDED;
+  --background-color: #FFFFFF;
+  --main-blue: #59B7FE;
+  --blue: #1D4772;
+}
+
+.dark{
+  --main-red: #580928;
+  --main-grey: #212121;
+  --main-blue: #061544;
+  --blue: #dbf5ff;
+  --background-color: #1c1c1c;
+}
+
+body{
+  background-image: url('../src/assets/pokeball.svg');
+  background-size: 5%;
+  background-color: var(--background-color);
+  color: var(--blue);
+  transition: all 2s ease-in-out;
+
+}
+
+.hidden{
+  display: none;
+}
+

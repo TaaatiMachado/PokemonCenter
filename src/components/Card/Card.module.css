@@ -1,0 +1,58 @@
+.poke_wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.poke_pic{
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+
+.poke_img{
+    width: 100%;
+    max-width: 450px;
+    object-fit: contain;
+}
+
+.poke_shiny{
+    position: absolute;
+    right: 15%;
+    bottom: 5%;
+    border: none;
+    background-color: #3e3e3e71;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.poke_shiny img{
+    max-width: 40px;
+    max-height: 40px;
+    width: 100%;
+}
+
+.poke_info{
+    width: 40%;
+    padding: 20px;
+    text-align: left;
+
+}
+
+.poke_info p{
+    margin: 5px
+}
+
+.poke_name{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 45px;
+    text-transform: capitalize;
+
+}
+.poke_height{}
+.poke_weight{}
+.poke_type{}
+.poke_stat p{
+    padding: 0 15px;
+    text-transform: capitalize;
+}

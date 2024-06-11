@@ -1,0 +1,83 @@
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+.team-container h1{
+    margin: 30px
+}
+.team-container .form-wrapper{
+    margin-bottom: 30px;
+    width: 70%;
+}
+.team-container label{
+    text-align: left;
+    width: 70%;
+    margin-bottom: 5px;
+}
+.team-container .form-input{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.team-container .team-input{
+    width: 70%;
+}
+.team-container .form-btn{
+    bottom: 11px;
+}
+.team-wrapper {
+    background-image: url('../src/assets/pokeball.svg');
+    background-size: 30%;
+    background-color: var(--background-color);
+}
+
+.team-pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color: #6767671f;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.team-name {
+    width: 100%;
+    color: var(--main-white);
+}
+
+.team-item {
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #0000001f;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.poke-id {
+    font-size: 13px;
+}
+
+.team-container button {
+    border: none;
+}
+
+.team-container .remove-button {
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+.team-container .remove-button {
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+.team-container .export-btn {
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 10px;
+    border: solid 2px var(--main-red);
+    margin: 20px auto
+}
